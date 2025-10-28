@@ -1,0 +1,18 @@
+{
+    "prefix": "benchmark",
+    "dataset": "cifar50_2",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 25,
+    "increment": 5,
+    "model_name": "memo",
+    "convnet_type": "memo_resnet18",
+    "train_base": true,
+    "train_adaptive": false,
+    "debug": false,
+    "skip": false,
+    "device": ["0"],
+    "seed": [1993]
+}

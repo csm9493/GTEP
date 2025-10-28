@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "imagenet50_2",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 25,
+    "increment": 5,
+    "model_name": "der",
+    "convnet_type": "resnet18",
+    "device": ["0"],
+    "seed": [1993]
+}

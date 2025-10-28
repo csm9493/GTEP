@@ -1,0 +1,5 @@
+name: pycil
+channels:
+  - defaults
+  - conda-forge
+prefix: /compuworks/anaconda3/envs/pycil

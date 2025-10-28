@@ -1,0 +1,12 @@
+{
+    "dataset": "imagenet50_1",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "replay",
+    "convnet_type": "resnet18",
+    "device": ["0"]
+}

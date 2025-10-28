@@ -1,0 +1,22 @@
+{
+    "prefix": "reproduce",
+    "dataset": "imageneta100_2",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "ranpac",
+    "backbone_type": "pretrained_vit_b16_224_adapter",
+    "device": ["0"],
+    "seed": [1993],
+    "use_simplecil": false,
+    
+    "min_lr":0,
+    "optimizer":"sgd",
+    "vpt_type":"shallow",
+
+    "use_RP": true
+}
+

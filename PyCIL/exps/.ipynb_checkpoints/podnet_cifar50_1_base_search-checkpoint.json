@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar50_1",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 25,
+    "increment": 5,
+    "model_name": "podnet",
+    "convnet_type": "cosine_resnet18",
+    "device": ["0"],
+    "seed": [1993]
+}

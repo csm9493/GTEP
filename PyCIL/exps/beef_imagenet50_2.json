@@ -1,0 +1,17 @@
+{
+    "prefix": "fusion-energy-0.01-1.7-fixed",
+    "dataset": "imagenet50_2",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "beefiso",
+    "convnet_type": "resnet18",
+    "device": ["0"],
+    "seed": [1993],
+    "reduce_batch_size": false,
+    "num_workers" : 8,
+    "T" : 2
+}

@@ -1,0 +1,27 @@
+{
+    "prefix": " ",
+    "dataset": "imagenetr",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "ease",
+    "backbone_type": "vit_base_patch16_224_ease",
+    "device": ["0"],
+    "seed": [1993],
+    
+    "min_lr": 0,
+    "pretrained": true,
+    "vpt_type": "Deep",
+    "use_diagonal": false,
+    "recalc_sim": true,
+    "use_init_ptm": false,
+    "beta": 0,
+    "use_old_data": false,
+    "use_reweight": true,
+    
+    "moni_adam": false,
+    "adapter_num": -1
+}

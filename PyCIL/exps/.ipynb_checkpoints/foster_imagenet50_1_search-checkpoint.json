@@ -1,0 +1,24 @@
+{
+    "prefix": "cil",
+    "dataset": "imagenet50_1",
+    "memory_size": 1000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "foster",
+    "convnet_type": "resnet18",
+    "device": ["0"],
+    "seed": [1993],
+    "oofc":"ft",
+    "is_teacher_wa":false,
+    "is_student_wa":false,
+    "wa_value":1,
+    "init_epochs": 200,
+    "init_lr" : 0.1,
+    "init_weight_decay" : 5e-4,
+    "weight_decay" : 5e-4,
+    "num_workers" : 8
+}
+

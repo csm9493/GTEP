@@ -1,0 +1,21 @@
+{
+    "prefix": " ",
+    "dataset": "imageneta100_2",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "coda_prompt",
+    "backbone_type": "vit_base_patch16_224_coda_prompt",
+    "device": ["0"],
+    "seed": [0],
+    
+    "min_lr": 1e-5,
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0
+}
